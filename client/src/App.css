@@ -1,0 +1,21 @@
+.heading {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.videoAdmin {
+  float: left;
+}
+
+.videoPeer {
+  float: right;
+}
+
+.adminName {
+  color: blue;
+}
+
+.peerName {
+  color: blue;
+}
