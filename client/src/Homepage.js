@@ -3,7 +3,7 @@ import Peer from "simple-peer"
 import io from "socket.io-client"
 import queryString from "query-string"
 
-const hostname = "https://http://venkivideochat.herokuapp.com/"
+const hostname = "https://rocky-mountain-37806.herokuapp.com/"
 const socket = io(hostname)
 
 const Homepage = ({ location }) => {
