@@ -2,6 +2,9 @@ const express = require("express")
 const app = express()
 const socketio = require("socket.io")
 const path = require("path")
+const cors = require("cors")
+
+app.use(cors())
 
 const PORT = process.env.PORT || 6000
 const server = app.listen(PORT, () => console.log(`Port is running on ${PORT}`))

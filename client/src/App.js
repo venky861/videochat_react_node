@@ -8,9 +8,7 @@ import Rough from "./Rough"
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path='/' component={InputComponent}></Route>
-      </Switch>
+      <Route exact path='/' component={InputComponent}></Route>
 
       <Switch>
         <Route path='/videochat' component={Homepage}></Route>
