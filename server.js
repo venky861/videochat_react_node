@@ -12,10 +12,6 @@ const server = app.listen(PORT, () => console.log(`Port is running on ${PORT}`))
 app.use(express.static(path.join(__dirname, "public")))
 // console.log(path.join(__dirname, "public"))
 
-app.get("/", (req, res) => {
-  res.send("this is new page")
-})
-
 app.get("/venky", (req, res) => {
   res.send("hello get request")
 })
