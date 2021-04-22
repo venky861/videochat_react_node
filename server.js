@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, "public")))
 // console.log(path.join(__dirname, "public"))
 
 app.get("/venky", (req, res) => {
-  res.send("hello get request")
+  res.send("hello getrequest")
 })
 
 const io = socketio(server)
